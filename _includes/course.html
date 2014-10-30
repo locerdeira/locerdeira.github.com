@@ -1,0 +1,20 @@
+<div class="media">
+    <a class="pull-left thumbnail" target="_{{ include.course.label }}" {% if include.course.doc-url%} href="{{ include.course.doc-url }}" {% endif %}>
+        <img src="img/teaching/{{ include.course.img }}" width="45px" alt="" {% if include.course.img-title %} title="{{ include.course.img-title }}" {% endif %}>
+    </a>
+    <div class="media-body">
+        <strong class="media-heading">
+        	{{ include.course.title }}
+        </strong></br>
+    	{% if include.course.type %}{{include.course.type}}{% endif %}.
+        {% if include.course.organization %}
+            In
+            {% if include.course.organization-url %}
+                <a href="{{ include.course.organization-url }}" target="_blank">
+                    <span class="glyphicon glyphicon-globe"></span>
+                </a>
+            {% endif %}
+            <em>{{ include.course.organization }}</em>.
+        {% endif %}{% if include.course.year %}{{ include.course.year }}.{% endif %}
+    </div>
+</div>

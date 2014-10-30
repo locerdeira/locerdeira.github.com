@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ page.title }}</title>
+        <meta name="description" content="{{ page.description }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/icons.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- MathJax -->
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container">
+            <header class="vcard" id="hcard-Lorena-O-Cerdeira">
+                <div class="row">
+
+                    <div id="cabecera-col-2" class="col-xs-12 col-sm-6">
+                        <h3>
+                            <span class="hidden fn">Lorena Otero Cerdeira</span>
+                            <span class="given-name">Lorena O.</span> 
+                            <span class="family-name">Cerdeira</span>
+                        </h3>
+                        <div id="profession" class="title">PhD Student</div>
+                        <div id="affiiation">
+                            <a href="http://lia.ei.uvigo.es" target="_blank">
+                                <span class="glyphicon glyphicon-globe"></span>
+                            </a> LIA2 Research Group
+                            <br/>
+                            <a href="http://www.uvigo.es" target="_blank">
+                                <span class="glyphicon glyphicon-globe"></span>
+                            </a> <span class="org">University of Vigo</span>
+                        </div><!--/affiliation-->
+                    </div><!--/cabecera-col-2-->
+
+                    <div id="cabecera-col-3" class="col-xs-12 col-sm-6">
+                        <div id="address" class="address adr">
+                            <div class="type hide">work</div>
+                            <a href="https://www.google.es/maps/place/Higher+Technical+School+of+Computer+Engineering,+Universidade+de+Vigo,+Ourense+Campus,+32004+Ourense,+Province+of+Ourense/@42.3448206,-7.8554561,18z/data=!3m1!4b1!4m2!3m1!1s0xd2ffebeb179ef75:0xb8a90d92b6885222" target="_blank"><span class="glyphicon glyphicon-map-marker"></span></a>
+                            <span class="street-address">Edificio Politécnico, s/n<br/>
+                            Campus Universitario As Lagoas</span><br/>
+                            <span class="postal-code">32004</span> - <span class="locality region">Ourense</span><br/>
+                            <span class="country-name">Spain</span>
+                        </div><!--/.address-->
+                        <div id="iconos">
+                            <a href="mailto:locerdeira@uvigo.es" target="_blank"><span class="icon-email" title="E-mail"></span></a> 
+                            <a href="http://scholar.google.es/citations?user=qWw5pxYAAAAJ" target="_blank"><span class="icon-google-scholar" title="Google Scholar"></span></a> 
+                            <a href="https://github.com/locerdeira" target="_blank"><span class="icon-github" title="GitHub"></span></a>
+                        </div>
+                    </div><!--/cabecera-col-3-->
+                </div><!--/.row-->
+                <hr/>
+            </header>
+
+            {{ content }}
+            
+            <footer class="text-center text-muted">
+                <hr/>
+                Last updated <em>{{ site.time | date: "%B %d, %Y" }}</em>.
+                <br/>
+                Created with <a href="http://git-scm.com/">git</a>,
+                <a href="http://jekyllrb.com">jekyll</a> and <a href="http://getbootstrap.com/">bootstrap</a>.
+                <br/><br/>
+            </footer>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-54503965-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+    </body>
+</html>

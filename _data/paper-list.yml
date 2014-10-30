@@ -1,0 +1,105 @@
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2010_IUCS
+  year: 2010
+  month: 10
+  img: 2010_IUCS.jpg
+  bib: 2010_IUCS.bib
+  title: Translation Table Compression under End-Tagged Dense Code
+  authors: Tito Valencia, Lorena O. Cerdeira, Eva L. Iglesias and Francisco J. Rodríguez
+  booktitle: 4th International Universal Communication Symposium (IUCS)
+  pages: 306-311
+  doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fWHdKcC1HbXhjcFk/edit?usp=sharing
+  booktitle-url: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5654670
+  venue: conference
+  abstract: >
+    <p>In recent years, the quality of Phrase-Based Statistical Machine Translation
+    has increased dramatically partially due to the significant increase of available 
+    parallel corpus. If we talk in terms of space, this advantage becomes a disadvantage 
+    because the increased size of the parallel corpus implies an exponential increase in 
+    the size of the translation tables. To solve this problem, there are solutions that 
+    reduce the size of the translation tables limiting the length of sentences that are 
+    incorporated into the tables. This solution reduces the space, but at the expense of 
+    increasing the possibility of worsening the translation of long sentences. In this 
+    paper, we propose the compression of the phrase-based translation tables using 
+    End-Tagged Dense Code to codify the phrases in source and target languages. The use 
+    of this technique allows us to reduce the size of translation tables and therefore 
+    it is possible to add longer sentences.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2010_DCAI
+  year: 2010
+  month: 09
+  img: 2010_DCAI.jpg
+  bib: 2010_DCAI.bib
+  title: SithGent, an Ill Agent
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Tito Valencia Requejo
+  booktitle: 7th International Symposium in Distributed Computing and Artificial Intelligence (DCAI)
+  pages: 105-111
+  doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fMFRfYWZJU2RuZkE/edit?usp=sharing
+  booktitle-url: http://link.springer.com/book/10.1007/978-3-642-14883-5
+  venue: conference
+  abstract: >
+    <p>In this paper we introduce our future lines of investigation on the field 
+    of Intelligent Agents, focusing on analysing why agents which were well defined 
+    according to the guidelines of Agent Oriented Software Engineering, do not show 
+    the expected behaviour when they are introduced on a real environment, causing 
+    the system to collapse.When addressing to agents malfunctions we will use a metaphor 
+    in which agents are considered as patients waiting to be diagnosed. Problems agents 
+    show would be equivalent to diseases patients suffer from, and the diagnostic process 
+    in agents will also be compared to the procedure followed by physicians when they 
+    need to heal patients. Therefore we introduce the concepts of SithGent and 
+    SithGent Diagnose, to refer to, sick agents and its diagnostic process.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2012_MATES
+  year: 2012
+  month: 10
+  img: 2012_MATES.jpg
+  bib: 2012_MATES.bib
+  title: Multi-Agent Systems Applied to the Field of Ornamental Plants
+  authors: Francisco J. Rodríguez-Martínez, Tito Valencia-Requejo and Lorena Otero-Cerdeira
+  booktitle: 10th German Conference in Multiagent System Technologies (MATES)
+  pages: 139-153
+  doc-url: http://link.springer.com/chapter/10.1007%2F978-3-642-33690-4_14
+  booktitle-url: http://www.springer.com/computer/ai/book/978-3-642-33689-8
+  venue: conference
+  abstract: >
+    <p>The market of ornamental plants is very important and strategical in Galicia and 
+    yet is one of the sectors where fewer technological change has been incorporated in 
+    recent years. This paper describes a real solution applied to an enterprise of ornamental 
+    plant selling and distribution. The solution that we propose uses intelligent agent 
+    technologies and ontologies to meet the special needs of an enterprise of this kind. We 
+    present the architecture defined with the agents involved in both parties, the plant 
+    wholesaler and the plant producers. A description of the ontologies that these agents 
+    use to interact is also provided, as well an example of systems behavior. In the final 
+    section some relevant issues detected and conclusions will be presented.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2012_KEOD
+  year: 2012
+  month: 10
+  img: 2012_KEOD.jpg
+  bib: 2012_KEOD.bib
+  title: "Multi-agent Systems and Ontologies Applied to New Industrial Domains. Case Study: Ornamental Plants"
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Loxo Lueiro Astray
+  booktitle: 4th International Conference on Knowledge Engineering and Ontology Development (KEOD)
+  pages: 357-364
+  doc-url: https://drive.google.com/file/d/0BwNgDtL6tK5fUEVzOHhoQ1ZWUVE/edit?usp=sharing
+  booktitle-url: http://www.keod.ic3k.org/Home.aspx?y=2012
+  venue: conference
+  abstract: >
+    <p>This paper describes a real solution applied to an enterprise of ornamental plant 
+    selling and distribution. The platform that we propose uses intelligent agent technologies 
+    and ontologies to meet the special needs of an enterprise of this kind. We present the 
+    architecture defined with the agents involved in both parties, the plant wholesaler and 
+    the plant producers. A description of the ontologies that these agents use to interact 
+    is also provided. In the final section some relevant issues detected and conclusions 
+    will be presented.</p>

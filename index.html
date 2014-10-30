@@ -1,0 +1,63 @@
+---
+layout: default
+title: Lorena O. Cerdeira
+description: Lorena Otero Cerdeira's Homepage
+---
+
+<!--INTRODUCTION-->
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<section id="introduction">
+			Here, it's going to be a very nice introduction.
+		</section><!--/introduction-->
+	</div>
+</div>
+
+<!--NEWS-->
+{% if site.data.news-list %}
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<section id="news">
+			<h4>News</h4>
+			{% for news in site.data.news-list reversed | sort_by: 'date' %}
+				{% if news.selected %}
+					<article><em>{{ news.date | date:'%D' }}.</em> {{ news.content }}</article>
+				{% endif %}
+			{% endfor %}
+		</section><!--/news-->
+	</div>
+</div>
+{% endif %}
+
+<!--PAPERS-->
+{% if site.data.paper-list %}
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<section id="papers">
+			<h4>Papers</h4>
+			{% for paper in site.data.paper-list reversed | sort_by: 'year', 'month' %}
+				{% if paper.selected %}
+					{% include paper.html paper=paper %}
+				{% endif %}
+			{% endfor %}
+		</section><!--/papers-->
+    </div>
+</div>
+{% endif %}
+
+<!--TEACHING-->
+{% if site.data.teaching-list %}
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<section id="teaching">
+			<h4>Teaching</h4>
+			{% for course in site.data.teaching-list reversed | sort_by: 'year' %}
+				{% if course.selected %}
+					{% include course.html course=course %}
+				{% endif %}
+			{% endfor %}
+		</section><!--/teaching-->
+    </div>
+</div>
+{% endif %}
+		

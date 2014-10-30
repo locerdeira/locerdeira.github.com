@@ -1,0 +1,49 @@
+<div class="media">
+    <a class="pull-left thumbnail" target="_{{ include.paper.label }}" {% if include.paper.doc-url%} href="{{ include.paper.doc-url }}" title="See document" {% endif %}>
+        <img src="img/paper/{{ include.paper.img }}" width="45px" alt="">
+    </a>
+    <div class="media-body">
+        <strong class="media-heading">
+        	{{ include.paper.title }}
+        	{% if include.paper.subtitle %}. {{ include.paper.subtitle }}{% endif %}
+        </strong><br/>
+        {% if include.paper.authors %}{{ include.paper.authors }}.{% endif %}
+
+        {% case include.paper.paper-type %}
+			{% when "inproceedings" %}
+				In 
+        		{% if include.paper.booktitle-url %}
+					<a href="{{ include.paper.booktitle-url}}" target="_blank">
+            			<span class="glyphicon glyphicon-globe"></span>
+					</a>
+        		{% endif %}
+				<em>{{ include.paper.booktitle }}</em>{% if include.paper.pages %}: pages {{ include.paper.pages }}{% endif %}{% if include.paper.year %}, {{ include.paper.year }}.{% endif %}
+			{% when "article" %}
+
+		{% endcase %}
+        <br/>
+        <!--ABSTRACT-->
+        {% if include.paper.abstract %}
+            <a data-toggle="modal" href="#abstract_{{ include.paper.label }}" data-target="#abstract_{{ include.paper.label }}" class="label label-default">Abstract</a>
+            <!-- Modal for abstract -->
+            <div class="modal fade active" id="abstract_{{ include.paper.label }}" tabindex="-1" role="dialog" aria-hidden="true"> 
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">{{ include.paper.title }}</h4>
+                        </div><!-- /.modal-header -->
+                        <div class="modal-body">
+                            {{ include.paper.abstract }}
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal --> 
+        {% endif %}<!--/ABSTRACT-->
+
+        <!--BIBTEXT-->
+        {% if include.paper.bib %}
+            <a href="/bib/{{ include.paper.bib }}" target="_blank" class="label label-warning">bib</a>
+        {% endif %}<!--/BIBTEXT-->
+    </div>
+</div>
