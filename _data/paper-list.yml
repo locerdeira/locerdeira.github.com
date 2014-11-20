@@ -35,7 +35,7 @@
   month: 09
   img: 2010_DCAI.jpg
   bib: 2010_DCAI.bib
-  title: SithGent, an Ill Agent
+  title: "SithGent, an Ill Agent"
   authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Tito Valencia Requejo
   booktitle: 7th International Symposium in Distributed Computing and Artificial Intelligence (DCAI)
   pages: 105-111
@@ -62,7 +62,7 @@
   month: 10
   img: 2012_MATES.jpg
   bib: 2012_MATES.bib
-  title: Multi-Agent Systems Applied to the Field of Ornamental Plants
+  title: "Multi-Agent Systems Applied to the Field of Ornamental Plants"
   authors: Francisco J. Rodríguez-Martínez, Tito Valencia-Requejo and Lorena Otero-Cerdeira
   booktitle: 10th German Conference in Multiagent System Technologies (MATES)
   pages: 139-153
@@ -88,7 +88,7 @@
   month: 10
   img: 2012_KEOD.jpg
   bib: 2012_KEOD.bib
-  title: "Multi-agent Systems and Ontologies Applied to New Industrial Domains. Case Study: Ornamental Plants"
+  title: "Multi-Agent Systems and Ontologies Applied to New Industrial Domains. Case Study: Ornamental Plants"
   authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez, Tito Valencia Requejo and Loxo Lueiro Astray
   booktitle: 4th International Conference on Knowledge Engineering and Ontology Development (KEOD)
   pages: 357-364
@@ -103,6 +103,32 @@
     the plant producers. A description of the ontologies that these agents use to interact 
     is also provided. In the final section some relevant issues detected and conclusions 
     will be presented.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2014_WOIS
+  year: 2014
+  month: 09
+  img: 2014_WOIS.jpg
+  bib: 2014_WOIS.bib
+  title: "Enhancing Alignment Results in Ontology Matching for Smart Cities"
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Alma Gómez Rodríguez
+  booktitle: 2nd International Workshop on Ontologies and Information Systems (WOIS)
+  pages: 55-65
+  doc-url: https://drive.google.com/file/d/0B1LkOfAs6RwaYm1TRHBNRGs1UWM/view?usp=sharing
+  booktitle-url: http://ceur-ws.org/Vol-1230/
+  venue: conference
+  abstract: >
+    <p>In this paper we propose the use of an ontology matching algorithm to
+    guarantee the interoperability of the different agents that integrate an smart city.
+    In this sort of environment the different parties need to cooperate and to integrate
+    their information in order to provide enhanced services to the users of the smart
+    city. As the information of these parties may be described by means of different
+    and heterogeneous ontologies, we find the solution in the use of ontology
+    matching techniques. The algorithm presented was designed to be able to exploit
+    the knowledge of previous matched agents to enhance the results and provide the
+    most accurate results possible.</p>
 
 - layout: paper
   selected: y
