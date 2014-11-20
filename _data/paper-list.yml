@@ -107,6 +107,28 @@
 - layout: paper
   selected: y
   paper-type: inproceedings
+  label: 2013_ICAART
+  year: 2013
+  month: 02
+  img: 2013_ICAART.jpg
+  bib: 2013_ICAART.bib
+  title: "Description and Evaluation of Algorithms for Ontology Matching"
+  authors: Mario Blanco-Alonso, Francisco J. Rodríguez Martínez and Lorena Otero Cerdeira
+  booktitle: 5th International Conference on Agents and Artificial Intelligence (ICAART)
+  pages: 492-495
+  doc-url: https://drive.google.com/file/d/0B1LkOfAs6RwacFJCY2hhMkF4RzQ/view?usp=sharing
+  booktitle-url: http://www.icaart.org/Home.aspx?y=2013
+  venue: conference
+  abstract: >
+    <p>In this paper, we present a state of the art about Ontology Matching Algorithms and 
+    we propose a general classification of them. A selection of three algorithms to work with 
+    a concrete platform is presented: CODI, LogMap and MaasMatch. In addition we propose a 
+    testbed divided in three groups of tests to evaluate the algorithms. These algorithms were 
+    tested and evaluated to verify which was the most suitable for this problem.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
   label: 2014_WOIS
   year: 2014
   month: 09
