@@ -1,4 +1,4 @@
 Lorena O. Cerdeira
 ==================
 
-You can see my website at https://locerdeira.github.io
+You can see my website at http://locerdeira.com
