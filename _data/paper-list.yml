@@ -205,3 +205,37 @@
     and the different categories are revised and analyzed. The information in this review is extended 
     and supported by the results obtained by a survey that we have designed and conducted among 
     the practitioners.</p>
+
+- layout: paper
+  selected: y
+  paper-type: article
+  label: 2014_SENSORS
+  year: 2014
+  month: 12
+  img: 2014_SENSORS.jpg
+  bib: 2014_SENSORS.bib
+  title: "Definition of an Ontology Matching Algorithm for Context Integration in Smart Cities"
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Alma Gómez Rodríguez
+  journal: Sensors
+  volume: 14
+  number: 12
+  pages: 23581-23619
+  doc-url: https://drive.google.com/open?id=0B1LkOfAs6RwaZldlVVRFNDRCTjg&authuser=1
+  journal-url: http://www.mdpi.com/1424-8220/14/12
+  abstract: >
+    <p>In this paper we describe a novel proposal in the field of smart cities: using an ontology 
+    matching algorithm to guarantee the automatic information exchange between the agents and the smart city. 
+    A smart city is composed by different types of agents that behave as producers and/or consumers of the 
+    information in the smart city. In our proposal, the data from the context is obtained by sensor and device 
+    agents while users interact with the smart city by means of user or system agents. The knowledge of each 
+    agent, as well as the smart city’s knowledge, is semantically represented using different ontologies. 
+    To have an open city, that is fully accessible to any agent and therefore to provide enhanced services 
+    to the users, there is the need to ensure a seamless communication between agents and the city, regardless 
+    of their inner knowledge representations, i.e., ontologies. To meet this goal we use ontology matching 
+    techniques, specifically we have defined a new ontology matching algorithm called OntoPhil to be deployed 
+    within a smart city, which has never been done before. OntoPhil was tested on the benchmarks provided by 
+    the well known evaluation initiative, Ontology Alignment Evaluation Initiative, and also compared to other 
+    matching algorithms, although these algorithms were not specifically designed for smart cities. Additionally, 
+    specific tests involving a smart city’s ontology and different types of agents were conducted to validate 
+    the usefulness of OntoPhil in the smart city environment.</p>
+    
