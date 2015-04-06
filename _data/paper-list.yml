@@ -181,34 +181,6 @@
 - layout: paper
   selected: y
   paper-type: article
-  label: 2015_EXPSYS
-  year: 2015
-  month: 02
-  img: 2015_EXPSYS.jpg
-  bib: 2015_EXPSYS.bib
-  title: "Ontology Matching: A Literature Review"
-  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Alma Gómez Rodríguez
-  journal: Expert Systems with Applications
-  volume: 42
-  number: 2
-  pages: 949–971
-  doc-url: https://drive.google.com/file/d/0B1LkOfAs6RwaSGZYRm9UYklTT3M/view?usp=sharing
-  journal-url: http://www.sciencedirect.com/science/journal/09574174/42/1
-  abstract: >
-    <p>The amount of research papers published nowadays related to ontology matching is remarkable 
-    and we believe that reflects the growing interest of the research community. However, for new 
-    practitioners that approach the field, this amount of information might seem overwhelming. 
-    Therefore, the purpose of this work is to help in guiding new practitioners get a general idea 
-    on the state of the field and to determine possible research lines.
-    To do so, we first perform a literature review of the field in the last decade by means of an 
-    online search. The articles retrieved are sorted using a classification framework that we propose, 
-    and the different categories are revised and analyzed. The information in this review is extended 
-    and supported by the results obtained by a survey that we have designed and conducted among 
-    the practitioners.</p>
-
-- layout: paper
-  selected: y
-  paper-type: article
   label: 2014_SENSORS
   year: 2014
   month: 12
@@ -238,4 +210,32 @@
     matching algorithms, although these algorithms were not specifically designed for smart cities. Additionally, 
     specific tests involving a smart city’s ontology and different types of agents were conducted to validate 
     the usefulness of OntoPhil in the smart city environment.</p>
+
+- layout: paper
+  selected: y
+  paper-type: article
+  label: 2015_EXPSYS
+  year: 2015
+  month: 02
+  img: 2015_EXPSYS.jpg
+  bib: 2015_EXPSYS.bib
+  title: "Ontology Matching: A Literature Review"
+  authors: Lorena Otero Cerdeira, Francisco J. Rodríguez Martínez and Alma Gómez Rodríguez
+  journal: Expert Systems with Applications
+  volume: 42
+  number: 2
+  pages: 949–971
+  doc-url: https://drive.google.com/file/d/0B1LkOfAs6RwaSGZYRm9UYklTT3M/view?usp=sharing
+  journal-url: http://www.sciencedirect.com/science/journal/09574174/42/1
+  abstract: >
+    <p>The amount of research papers published nowadays related to ontology matching is remarkable 
+    and we believe that reflects the growing interest of the research community. However, for new 
+    practitioners that approach the field, this amount of information might seem overwhelming. 
+    Therefore, the purpose of this work is to help in guiding new practitioners get a general idea 
+    on the state of the field and to determine possible research lines.
+    To do so, we first perform a literature review of the field in the last decade by means of an 
+    online search. The articles retrieved are sorted using a classification framework that we propose, 
+    and the different categories are revised and analyzed. The information in this review is extended 
+    and supported by the results obtained by a survey that we have designed and conducted among 
+    the practitioners.</p>
     
