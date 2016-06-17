@@ -129,6 +129,30 @@
 - layout: paper
   selected: y
   paper-type: inproceedings
+  label: 2013_WAF
+  year: 2013
+  month: 09
+  img: 2013_WAF.jpg
+  bib: 2013_WAF.bib
+  title: "A theoretical and practical evaluation of ontologies applied to a MAS in the field of ornamental plants, using ontology alignment techniques"
+  authors: Loxo Lueiro-Astray, Lorena Otero-Cerdeira, Cástor Sánchez-Chao and Francisco J. Rodríguez-Martínez
+  booktitle: "XIV Workshop on Physical Agents (WAF-2013)"
+  pages: 61-66
+  doc-url: https://drive.google.com/open?id=0B1LkOfAs6RwaMEJ1OXJER2I4cVE
+  booktitle-url: http://www.jopha.net/waf/index.php/waf/waf13/index
+  venue: conference
+  abstract: >
+    <p>This paper presents the continuation of the research introduced in [10], 
+    where a MAS was defined for an enterprise of ornamental plant selling and distribution. 
+    When accomplishing the development of this MAS, a problem with the information representation arose, 
+    since some of the parties decided to keep their own information representation even if 
+    adopting the designed system. Therefore, there was the need to address the information heterogeneity 
+    problem, which we do in this paper by using ontologies. The viability of this approach is tested in 
+    this paper with a theoretical and practical analysis of ontology alignment techniques applied to MAS.</p>
+
+- layout: paper
+  selected: y
+  paper-type: inproceedings
   label: 2014_WOIS
   year: 2014
   month: 09
