@@ -284,3 +284,27 @@
     of the input ontologies. The different steps of the algorithm as well as some clarifying examples are 
     also provided. In addition, OntoPhil is also compared and evaluated using the datasets from well-known 
     Ontology Alignment Evaluation Initiative.</p>
+    
+- layout: paper
+  selected: y
+  paper-type: inproceedings
+  label: 2016_KES_IIMSS
+  year: 2016
+  month: 06
+  img: 2016_KES_IIMSS.jpg
+  bib: 2016_KES_IIMSS.bib
+  title: "Pentas: Using Satellites for Smart Sensing"
+  authors: Lorena Otero-Cerdeira, Alma Gómez-Rodríquez, Francisco J. Rodríguez Martínez, Juan C. González-Moreno and Arno Formella
+  booktitle: "Intelligent Interactive Multimedia: Systems and Services: 9th International KES Conference, KESS-IIMSS-16"
+  pages: XXX-XXX
+  doc-url: 
+  booktitle-url: http://iimss-16.kesinternational.org/
+  venue: conference
+  abstract: >
+    <p>Smart environments are an important field of study and have suffered from an important 
+    evolution in the last decade. Smart technology makes an intensive use of wireless technology 
+    as the way of communicating all the elements of the system, including sensors. This paper tries to 
+    show how the use of satellites and radio waves may provide smart characteristics to environments 
+    that lack the common wireless technologies usually utilized. A system using Agent Oriented Software 
+    Engineering and based on that technology has been constructed and shows the suitability and 
+    advantages of the proposal.</p>
